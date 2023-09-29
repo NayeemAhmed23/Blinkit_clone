@@ -192,6 +192,12 @@ header .container{
 }
 .categories img{
     width: 100%;
+    
+}
+.categories img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px  rgba(182, 168, 45, 0.801);
 }
 .items{
     display: flex;
